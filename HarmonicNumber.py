@@ -1,4 +1,4 @@
-#  to find N-th Harmonic Number
+''' to find N-th Harmonic Number '''
  
 # Function to find N-th Harmonic Number
 def nthHarmonic(N) :

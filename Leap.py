@@ -2,6 +2,7 @@
 
  
 def checkYear(year):
+    number = int(input("Enter a number:"))
  
     # Return true if year is a multiple
     # of 4 and not multiple of 100.
