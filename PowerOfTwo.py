@@ -8,11 +8,11 @@ def highestPowerof2(n):
         # If i is a power of 2
         if ((i & (i - 1)) == 0):
          
-            res = i;
-            break;
+            res = i
+            break
          
-    return res;
+    return res
  
 
-n = 10;
-print(highestPowerof2(n));
+n = 10
+print(highestPowerof2(n))
