@@ -2,7 +2,7 @@
 
  
 def checkYear(year):
-    number = int(input("Enter a number:"))
+    
  
     # Return true if year is a multiple
     # of 4 and not multiple of 100.
@@ -10,7 +10,7 @@ def checkYear(year):
     return (((year % 4 == 0) and (year % 100 != 0)) or (year % 400 == 0));
  
 
-year = 2020
+year = int(input("Enter a number:"))
 if(checkYear(year)):
     print("Leap Year")
 else:
