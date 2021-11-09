@@ -1,5 +1,10 @@
-input_str = input('Please provide input data\n')
-currentString = input('Please provide current string\n')
-newString = input('Please provide new String\n')
-output_str = input_str.replace(currentString, newString)
-print('Updated String =', output_str)
+def replace(username): 
+    if(len(username) < 3) :
+        return "username should not less minimum 3 character:"
+    else:
+        return "Hello "+username+" How are you"
+    
+    
+username = input("Enter username:")
+new_message = replace(username)
+print(new_message)
