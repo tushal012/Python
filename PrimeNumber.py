@@ -1,4 +1,12 @@
-# program to print prime factors
+''' 
+@Author : Tushal Kumar
+@Date : 2021-11-07
+@Tittle : to print prime numbers
+'''
+
+'''
+@Desc : Computes the prime factorization of N using brute force
+'''
  
 def primeFactors():
     number = int(input("Enter A Number To Find The Prime Factor:"))

@@ -1,3 +1,10 @@
+''' 
+@Author : Tushal Kumar
+@Date : 2021-11-07
+@Tittle : Flip Coin and print percentage of Heads and Tails
+'''
+
+
 import random
 
 def flipCoin():
@@ -22,4 +29,4 @@ def flipCoin():
 
 
 
-flipCoin() # calling the function
+flipCoin()

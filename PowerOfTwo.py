@@ -1,18 +1,21 @@
-#  This program takes a command-line argument N and prints a table of the
-# powers of 2 that are less than or equal to 2^N..
-def highestPowerof2(n):
- 
-    res = 0;
-    for i in range(n, 0, -1):
-         
-        # If i is a power of 2
-        if ((i & (i - 1)) == 0):
-         
-            res = i
-            break
-         
-    return res
- 
+''' 
+@Author : Tushal kumar
+@Date : 2021-11-07
+@Tittle :   prints a table of the powers of 2 that are less than or equal to 2^N
+'''
 
-n = 10
-print(highestPowerof2(n))
+'''
+@Desc : The Power Value N. Only works if 0 <= N < 31 since 2^31 overflows an int
+'''
+
+try:
+    power = int(input("Enter A power:"))
+    if power >31:
+        raise ValueError("Entered A Number Greater Than 31")
+    number = 1
+    for i in range(power):
+        number = number *2
+        print(number)
+
+except Exception as e: 
+    print(e)
