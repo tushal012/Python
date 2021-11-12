@@ -8,10 +8,11 @@
 
 '''
  
-# Function to find N-th Harmonic Number
+ 
+ # Function to find N-th Harmonic Number
 def nthHarmonic(number) :
  
-    # H1 = 1
+
     harmonic = 1.00
  
     # loop to apply the forumula
@@ -25,5 +26,5 @@ def nthHarmonic(number) :
    
 if __name__ == "__main__" :
  
-    number = int(input("Enter A Number: "))
+    number = int(input("Enter a Number: "))
     print(round(nthHarmonic(number),5))
