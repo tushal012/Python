@@ -8,6 +8,7 @@
 @Desc : The Power Value N. Only works if 0 <= N < 31 since 2^31 overflows an int
 '''
 
+
 try:
     power = int(input("Enter A power:"))
     if power >31:
@@ -17,5 +18,5 @@ try:
         number = number *2
         print(number)
 
-except Exception as e: 
-    print(e)
+except ValueError: 
+    print("Invalid Input")
