@@ -22,10 +22,11 @@ class Gambler:
             no_of_bets_made+=1
             gambler_choice=random.random()
             
-            if gambler_choice>0.5:   #if the random number generated is above 0.5 then the gamble wins, or else he/she looses
-                no_of_times_won+=1
+            if gambler_choice>0.5:  
+                no_of_times_won+= 1
                 stake=stake+1 
             else:
+                no_of_time_lost+=1
                 stake=stake-1
 
       
@@ -34,5 +35,6 @@ class Gambler:
         print("Percentage Of Loss", (no_of_time_lost/bet_made)*100) 
         print("Number Of Bets Made", no_of_bets_made) 
 
-Gambler.gamblerGame()    
+    
+    gamblerGame()    
     
