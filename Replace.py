@@ -1,5 +1,0 @@
-input_str = input('Please provide input data\n')
-currentString = input('Please provide current string\n')
-newString = input('Please provide new String\n')
-output_str = input_str.replace(currentString, newString)
-print('Updated String =', output_str)
