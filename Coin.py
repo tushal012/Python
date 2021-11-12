@@ -7,6 +7,7 @@
 
 import random
 
+
 def flipCoin():
     heads = 0 # track heads amount
     tails = 0 # track tails amount
@@ -24,6 +25,7 @@ def flipCoin():
     headspercent = heads / 10.0 # since we're rolling 1000 times, /10 will give percentage
     tailspercent = 100.0 - headspercent # no need to recalculate 100 - heads = tails %
 
+    
     print("Heads percent: " + str(headspercent)) # printing the values on screen
     print("Tails percent: " + str(tailspercent)) # converting numbers to string by str()
 
