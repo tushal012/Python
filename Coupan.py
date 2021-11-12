@@ -10,7 +10,7 @@ import random
 
 
 
-class Coupan():
+class Coupan:
 
     
     try:
